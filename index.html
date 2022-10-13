@@ -9,6 +9,16 @@
 </head>
 <body>
   
+  <form id="validationForm">
+    <input title="number" type="text" name="fname" pattern="^(?=.[a-zA-Z\d@$!%?&])[A-Za-z\d@$!%?&]{1,}$">
+    <input title="number" type="text" name="flname" pattern="^[0-9]{10}$">
+    <input title="number" type="tel" name="fphone" pattern="^(?=.[a-zA-Z\d@$!%?&])[A-Za-z\d@$!%?&]{1,}$">
+    <input title="number" type="email" name="femail" pattern="^(?=.[a-zA-Z\d@$!%?&])[A-Za-z\d@$!%?&]{1,}$">
+    <input title="number" type="password" name="fpass" pattern="^(?=.[a-zA-Z\d@$!%?&])[A-Za-z\d@$!%?&]{1,}$">
+    <input title="number" type="password" name="fcpass" pattern="^(?=.[a-zA-Z\d@$!%?&])[A-Za-z\d@$!%?&]{1,}$">
+    <input type="submit" value="Submit">
+  </form>
+  
   <script src="app.js"></script>
 </body>
 </html>
