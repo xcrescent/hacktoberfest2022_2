@@ -8,3 +8,97 @@ body{
     color: #c9d1d9;
     background-color: #0d1117;
 }
+body {
+  padding: 10px 50px;
+  background-image:url("bg.png");
+  background-color: #cccccc;
+}
+
+h1{
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:aliceblue;
+  background-color: grey;
+  
+}
+.formdesign {
+  font-size: 25px;
+  color: black;
+  text-align: right ;
+}
+.formdesign1{
+font-size: 25px;
+text-align: right;
+color: black;
+}
+.formdesign2{
+  font-size: 25px;
+  text-align:  right;
+  color: black;
+}
+
+.formdesign3{
+  font-size: 25px;
+  text-align: right;
+  color: black ;
+}
+
+.formdesign3 input{
+  width: 31.9%;
+  padding: 12px 20px;
+  border: 1px solid blue;
+  margin: 14px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.formdesign2 input{
+  width: 32.7%;
+  padding: 12px 20px;
+  border: 1px solid blue;
+  margin: 14px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+
+.formdesign1 input{
+  width: 27.3%;
+  padding: 12px 20px;
+  border: 1px solid blue;
+  margin: 14px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.formdesign input {
+  width: 35%;
+  padding: 12px 20px;
+  border: 1px solid blue;
+  margin: 14px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.formerror {
+ 
+  color:red;
+  border-radius: 4px;
+  padding: 12px 20px;
+}
+
+.wrap{
+  text-align: right;
+  padding-right: 20vh;
+}
+.but {
+  align-self: center;
+  border-radius: 9px;
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  margin: 22px 20px;
+}
+.but:visited{
+  color: blue;
+}

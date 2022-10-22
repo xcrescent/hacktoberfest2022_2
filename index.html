@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- <link rel="stylesheet" src="../css/style.css" /> -->
+    <link rel="stylesheet" src="style.css" />
 
     <style>
       * {
@@ -204,6 +204,33 @@
       </p>
       </div>
     </div>
+    <h1 class="heading">Please Fill The Form to Signup.</h1>
+    <form name="myForm"  id="validationForm">
+        <div class="formdesign3" id="fname">
+          First Name: <input type="text" name="fname" required placeholder="Enter the first name "><b><span class="formerror"> </span></b>
+        </div>
+       <div class="formdesign3" id="lname">
+     Last Name: <input type="text" name="flname" required placeholder="Enter the last name "><b><span class="formerror"> </span></b>
+    </div>
+        <div class="formdesign" id="email">
+            Email: <input type="email" name="femail" required placeholder="Enter the email Id"><b><span class="formerror"> </span></b>
+        </div>
+
+        <div class="formdesign" id="phone">
+            Phone: <input type="phone" name="fphone" required placeholder="Enter Phone No."><b><span class="formerror"></span></b>
+        </div>
+        <div class="formdesign2" id="pass">
+            Password: <input type="password" name="fpass" autocomplete="new-password" required placeholder="Enter Password."><b><span class="formerror"></span></b>
+        </div>
+      
+
+        <div class="formdesign1" id="cpass">
+            Confirm Password: <input type="password" autocomplete="current-password" name="fcpass" required placeholder="Confirm Password"><b><span class="formerror"></span></b>
+        </div>
+<div class="wrap">
+        <input class="but" type="submit" value="Submit">
+    </div>
+    </form>
     <script src="app.js"></script>
   </body>
 </html>
