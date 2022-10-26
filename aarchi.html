@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" src="style.css" />
+
+    <style>
+      * {
+        margin: 0px;
+      }
+      body {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+          Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        font-size: 25px;
+        line-height: 3;
+        color: #C0C0C0 ;
+        background-color: #808080 ;
+      }
+      .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      form {
+        background-color: #800000 ;
+        height: 100vh;
+        width: 40vw;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        margin: 10px;
+      }
+
+      .section {
+        margin: 10px;
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: black;
+        /* overflow: scroll; */
+      }
+      label{
+        width: 100%;
+        text-align: left;
+        margin-top: 13px;
+      }
+      input{
+        width: 100%;
+      }
+      button{
+        margin-top: 15px;
+        background-color: #808000;
+        color: white;
+        border-radius: 5px;
+
+      }
+      button:hover{
+        box-shadow: 0px 8px 15px rgba(46, 44, 44, 0.848);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+        border: none;
+      }
+      div p{
+        font-size: smaller;
+        padding: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        background-color: #00FF00 ;
+        border-radius: 5px;
+        padding: 3px;
+      }
+      h3 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+
+      .card {
+        background-color: #c9d1d9;
+        height: 100vh;
+        width: 40vw;
+        padding: 10px;
+        color: black;
+        border-radius: 5px;
+        margin: 10px;
+        overflow: scroll;
+      }
+    </style>
+  </head>
+  <body>
+   
+    <h1 class="heading">Please Fill The Form to Signup.</h1>
+    <form name="myForm"  id="validationForm">
+        <div class="formdesign3" id="fname">
+          First Name: <input type="text" name="fname" required placeholder="Enter the first name "><b><span class="formerror"> </span></b>
+        </div>
+       <div class="formdesign3" id="lname">
+     Last Name: <input type="text" name="flname" required placeholder="Enter the last name "><b><span class="formerror"> </span></b>
+    </div>
+        <div class="formdesign" id="email">
+            Email: <input type="email" name="femail" required placeholder="Enter the email Id"><b><span class="formerror"> </span></b>
+        </div>
+
+        <div class="formdesign" id="phone">
+            Phone: <input type="phone" name="fphone" required placeholder="Enter Phone No."><b><span class="formerror"></span></b>
+        </div>
+        <div class="formdesign2" id="pass">
+            Password: <input type="password" name="fpass" autocomplete="new-password" required placeholder="Enter Password."><b><span class="formerror"></span></b>
+        </div>
+      
+
+        <div class="formdesign1" id="cpass">
+            Confirm Password: <input type="password" autocomplete="current-password" name="fcpass" required placeholder="Confirm Password"><b><span class="formerror"></span></b>
+        </div>
+<div class="wrap">
+        <input class="but" type="submit" value="Submit">
+    </div>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
